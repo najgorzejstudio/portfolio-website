@@ -166,3 +166,13 @@ body {
 .project-card:hover .project-image img {
     transform: scale(1.05);
 }
+
+.experience-item {
+    margin-bottom: 25px;
+}
+
+.experience-dates {
+    opacity: 0.8;
+    font-size: 0.9rem;
+    margin-top: -5px;
+}
