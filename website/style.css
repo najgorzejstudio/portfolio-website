@@ -176,3 +176,26 @@ body {
     font-size: 0.9rem;
     margin-top: -5px;
 }
+
+a:link {
+    text-decoration: none;
+    color: rgb(218, 212, 142);
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(218, 212, 142);
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(218, 212, 142);
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: underline;
+    color: rgb(218, 212, 142);
+}
