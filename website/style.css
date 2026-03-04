@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 10%;
+    background-color: #1a1a1a;
+    color: rgb(174, 170, 113);
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cert {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #1b1b1b;
+    padding: 8px;
+    border-radius: 6px;
+    color: #f4f4f4;
+}
+    
+
+.main {
+    width: 90%;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(174, 170, 113);
+    background-color: rgb(39, 55, 43);
+}
+
+.resume-section {
+    margin-bottom: 40px;
+}
+
+.resume-section h1 {
+    margin-top: 0;
+}
+
+.resume-section h2,
+.projects h2 {
+    border-bottom: 2px solid rgba(174, 170, 113, 0.4);
+    padding-bottom: 5px;
+}
+
+.projects {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid rgba(174, 170, 113, 0.4);
+    border-radius: 8px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    padding: 15px;
+    border: 1px solid rgba(174, 170, 113, 0.3);
+    border-radius: 6px;
+    background-color: rgba(174, 170, 113, 0.05);
+    position: relative;
+}
+
+.project-card:hover {
+    background-color: rgba(174, 170, 113, 0.1);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.projects {
+    padding: 15px;
+}
+
+.project-top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.flare {
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    margin-left: 8px;
+    border: 1px solid;
+    white-space: nowrap;
+}
+
+.project-status {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.finished {
+    color: #7CFC9A;
+    border-color: #7CFC9A;
+}
+
+.unfinished {
+    color: #FFD166;
+    border-color: #FFD166;
+}
+
+.open-source {
+    color: #6EE7B7;
+    border-color: #6EE7B7;
+}
+
+.closed-source {
+    color: #FF8C8C;
+    border-color: #FF8C8C;
+}
+
+.tech-stack {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tech {
+    color: rgb(229, 220, 96);
+    border-color: rgba(219, 209, 71, 0.5);
+    background-color: rgba(174,170,113,0.08);
+}
+
+.project-image {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-image img {
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.05);
+}
+
+.experience-item {
+    margin-bottom: 25px;
+}
+
+.experience-dates {
+    opacity: 0.8;
+    font-size: 0.9rem;
+    margin-top: -5px;
+}
