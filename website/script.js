@@ -1,9 +1,5 @@
 window.onload = function () {
-    if (localStorage.getItem("hasCodeRunBefore") === null) {
-        console.log("starting")
-        getData()
-        localStorage.setItem("hasCodeRunBefore", true);
-    }
+    getData()
 }
 
 async function getData() {
@@ -20,6 +16,6 @@ async function getData() {
     console.log(data)
 
 
-    document.getElementById("counter").innerHTML = "This website was viewed: " + data["visits"] + "times"
+    document.getElementById("counter").innerHTML = "This website was viewed: " + data["visits"] + " times!"
 }
 
