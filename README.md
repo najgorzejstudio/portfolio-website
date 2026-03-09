@@ -6,6 +6,8 @@ The site presents my resume, certifications, and selected projects.
 The website is deployed as a **static site on AWS S3** and delivered globally through **CloudFront**.  
 Infrastructure for deployment is managed separately using **Terraform**.
 
+Link: https://dalo6kqnbnwm5.cloudfront.net/
+
 ## Features
 
 - Responsive personal resume website
